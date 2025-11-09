@@ -5,7 +5,7 @@ import os
 
 # --- Configuration ---
 # REMPLACER par le port série de votre Arduino (ex: 'COM3' sur Windows, '/dev/ttyUSB0' ou '/dev/ttyACM0' sur Linux/Mac)
-ARDUINO_PORT = '/dev/ttyACM0' 
+ARDUINO_PORT = 'COM12' 
 BAUD_RATE = 9600
 STATUS_FILE_PATH = 'last_message.txt'
 
