@@ -1,0 +1,55 @@
+# .gitignore for Arduino projects
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# Arduino build artifacts
+build/
+bin/
+tmp/
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.lss
+*.lst
+*message.txt
+
+# PlatformIO
+.pio/
+.pioenvs/
+.platformio/
+
+# Arduino IDE / CLI temporary files
+.arduino.json
+*.tmp
+*.temp
+
+# Compiled objects and archives
+*.o
+*.d
+*.a
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Backup / swap / logs
+*~
+*.bak
+*.swp
+*.swo
+*.log
+
+# Optional: ignore vendored libraries (uncomment if you don't want to track libraries/)
+# libraries/
